@@ -13,7 +13,7 @@ PRODUCT_ID = 84   # your BTC product
 
 
 # ========= CORE FUNCTION =========
-def execute_trade(side, size=1):
+def execute_trade(side, size=10):
 
     side = side.lower()
 
@@ -55,3 +55,4 @@ def execute_trade(side, size=1):
     )
 
     print("Order Response:", response)
+
